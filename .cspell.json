@@ -1,0 +1,22 @@
+{
+    "ignorePaths": [
+        "*cspell.json",
+        "*.lock"
+    ],
+    "words": [
+        "asyncioreactor",
+        "autothrottle",
+        "AUTOTHROTTLE",
+        "httpcache",
+        "HTTPCACHE",
+        "itemadapter",
+        "linkextractors",
+        "middlewares",
+        "MIDDLEWARES",
+        "NEWSPIDER",
+        "ROBOTSTXT",
+        "scrapy",
+        "Scrapy",
+        "TELNETCONSOLE"
+    ]
+}

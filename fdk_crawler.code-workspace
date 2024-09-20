@@ -1,0 +1,62 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.formatOnPaste": true,
+		"python.linting.mypyEnabled": true,
+		"editor.formatOnType": true,
+		"python.analysis.diagnosticMode": "workspace",
+		"pythonIndent.trimLinesWithOnlyWhitespace": true,
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.analysis.typeCheckingMode": "basic",
+		"debug.terminal.clearBeforeReusing": false,
+		"terminal.integrated.cursorBlinking": true,
+		"terminal.integrated.copyOnSelection": true,
+		// "terminal.integrated.defaultLocation": "view",
+		// "terminal.integrated.env.windows": {
+		// 	"PYTHONPATH": "${workspaceFolder}/src",
+		// },
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/__pycache__": true,
+			"**/.mypy_cache": true,
+			"**/__icon__": true,
+			"**/desktop.ini": true,
+		},
+		"workbench.settings.enableNaturalLanguageSearch": true,
+		"workbench.colorCustomizations": {},
+		"python.analysis.exclude": [
+			"../__data__",
+			"../__dev__",
+			".venv"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python-Modul",
+				"type": "python",
+				"request": "launch",
+				// "env": {
+				// 	"PYTHONPATH": "./src"
+				// },
+				"module": "runner",
+				"justMyCode": true,
+				"args": []
+			}
+		]
+	}
+}
